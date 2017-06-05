@@ -1,5 +1,4 @@
 import Home from '../models/home';
-import moment from 'moment';
 
 export const index = (req, res, next) => {
 

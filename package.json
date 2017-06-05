@@ -6,24 +6,36 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node_modules/babel-cli/bin/babel.js ./ --source-maps --out-dir dist",
     "start": "node_modules/nodemon/bin/nodemon.js -- node_modules/babel-cli/bin/babel-node.js server.js",
-    "seed": "node_modules/babel-cli/bin/babel-node.js seeder/homeSeeder.js"
+    "seed": "node_modules/babel-cli/bin/babel-node.js seeder/homeSeeder.js",
+    "webpack": "webpack",
+    "webpack-watch": "webpack --watch --progress --hide-modules --config=./webpack.config.js"
   },
   "dependencies": {
     "body-parser": "~1.17.1",
+    "bootstrap-sass": "^3.3.7",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.3",
     "express": "~4.15.2",
+    "google-map-react": "^0.24.0",
+    "heightify": "^5.0.5",
     "moment": "^2.18.1",
     "mongoose": "^4.10.4",
     "morgan": "^1.8.2",
+    "prop-types": "^15.5.10",
     "pug": "~2.0.0-beta11",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-dual-rangeslider": "^1.2.16",
     "serve-favicon": "~2.4.2"
   },
   "devDependencies": {
     "babel": "^6.23.0",
     "babel-cli": "^6.24.1",
+    "babel-loader": "^7.0.0",
     "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.11.0",
+    "webpack": "^2.6.1"
   }
 }
