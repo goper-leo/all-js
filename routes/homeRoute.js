@@ -6,7 +6,7 @@ import { index } from '../controllers/homeController';
 const router = Router();
 
 // Handle /homes.json route with index action from home controller
-router.route('/homes.json')
+router.route('/homes')
   .get(index);
 
 export default router;
