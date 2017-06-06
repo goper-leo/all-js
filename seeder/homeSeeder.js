@@ -10,6 +10,11 @@ const homes = [
         'price': Math.floor(Math.random() * 20000) + 1000,
         'reviews': Math.floor(Math.random() * 1000) + 10,
         'rating': Math.floor(Math.random() * 5) + 1,
+        'images' : [
+            'images/houses/a_house1.jpg',
+            'images/houses/a_house2.jpg',
+            'images/houses/a_house3.jpg',
+        ]
     },
     {
         'name': 'Waterfront Insular',
@@ -19,6 +24,11 @@ const homes = [
         'price': Math.floor(Math.random() * 20000) + 1000,
         'reviews': Math.floor(Math.random() * 1000) + 10,
         'rating': Math.floor(Math.random() * 5) + 1,
+        'images' : [
+            'images/houses/b_house1.jpg',
+            'images/houses/b_house2.jpg',
+            'images/houses/b_house3.jpg',
+        ]
     },
     {
         'name': 'Seda Abreeza',
@@ -28,6 +38,11 @@ const homes = [
         'price': Math.floor(Math.random() * 20000) + 1000,
         'reviews': Math.floor(Math.random() * 1000) + 10,
         'rating': Math.floor(Math.random() * 5) + 1,
+        'images' : [
+            'images/houses/c_house1.jpg',
+            'images/houses/c_house2.jpg',
+            'images/houses/c_house3.jpg',
+        ]
     },
     {
         'name': 'Jazzy James Hotel',
@@ -37,6 +52,11 @@ const homes = [
         'price': Math.floor(Math.random() * 20000) + 1000,
         'reviews': Math.floor(Math.random() * 1000) + 10,
         'rating': Math.floor(Math.random() * 5) + 1,
+        'images' : [
+            'images/houses/d_house1.jpg',
+            'images/houses/d_house2.jpg',
+            'images/houses/d_house3.jpg',
+        ]
     },
     {
         'name': 'D Leonor Hotel',
@@ -46,6 +66,11 @@ const homes = [
         'price': Math.floor(Math.random() * 20000) + 1000,
         'reviews': Math.floor(Math.random() * 1000) + 10,
         'rating': Math.floor(Math.random() * 5) + 1,
+        'images' : [
+            'images/houses/a_house2.jpg',
+            'images/houses/a_house3.jpg',
+            'images/houses/a_house1.jpg',
+        ]
     },
     {
         'name': 'Sychar Garden',
@@ -55,6 +80,11 @@ const homes = [
         'price': Math.floor(Math.random() * 20000) + 1000,
         'reviews': Math.floor(Math.random() * 1000) + 10,
         'rating': Math.floor(Math.random() * 5) + 1,
+        'images' : [
+            'images/houses/b_house2.jpg',
+            'images/houses/b_house3.jpg',
+            'images/houses/b_house1.jpg',
+        ]
     },
     {
         'name': 'Apo View Hotel',
@@ -64,6 +94,11 @@ const homes = [
         'price': Math.floor(Math.random() * 20000) + 1000,
         'reviews': Math.floor(Math.random() * 1000) + 10,
         'rating': Math.floor(Math.random() * 5) + 1,
+        'images' : [
+            'images/houses/c_house2.jpg',
+            'images/houses/c_house3.jpg',
+            'images/houses/c_house1.jpg',
+        ]
     },
     {
         'name': 'Marco Polo',
@@ -73,6 +108,11 @@ const homes = [
         'price': Math.floor(Math.random() * 20000) + 1000,
         'reviews': Math.floor(Math.random() * 1000) + 10,
         'rating': Math.floor(Math.random() * 5) + 1,
+        'images' : [
+            'images/houses/d_house2.jpg',
+            'images/houses/d_house3.jpg',
+            'images/houses/d_house1.jpg',
+        ]
     },
     {
         'name': 'Regency Inn',
@@ -82,6 +122,11 @@ const homes = [
         'price': Math.floor(Math.random() * 20000) + 1000,
         'reviews': Math.floor(Math.random() * 1000) + 10,
         'rating': Math.floor(Math.random() * 5) + 1,
+        'images' : [
+            'images/houses/a_house3.jpg',
+            'images/houses/a_house2.jpg',
+            'images/houses/a_house1.jpg',
+        ]
     },
     {
         'name': 'The Pinnacle Hotel and Suites',
@@ -91,6 +136,11 @@ const homes = [
         'price': Math.floor(Math.random() * 20000) + 1000,
         'reviews': Math.floor(Math.random() * 1000) + 10,
         'rating': Math.floor(Math.random() * 5) + 1,
+        'images' : [
+            'images/houses/b_house3.jpg',
+            'images/houses/b_house2.jpg',
+            'images/houses/b_house1.jpg',
+        ]
     },
     {
         'name': 'Hotel Uno',
@@ -100,6 +150,11 @@ const homes = [
         'price': Math.floor(Math.random() * 20000) + 1000,
         'reviews': Math.floor(Math.random() * 1000) + 10,
         'rating': Math.floor(Math.random() * 5) + 1,
+        'images' : [
+            'images/houses/c_house3.jpg',
+            'images/houses/c_house2.jpg',
+            'images/houses/c_house1.jpg',
+        ]
     },
     {
         'name': 'Jazzy James Hotel',
@@ -109,6 +164,11 @@ const homes = [
         'price': Math.floor(Math.random() * 20000) + 1000,
         'reviews': Math.floor(Math.random() * 1000) + 10,
         'rating': Math.floor(Math.random() * 5) + 1,
+        'images' : [
+            'images/houses/d_house3.jpg',
+            'images/houses/d_house2.jpg',
+            'images/houses/d_house1.jpg',
+        ]
     },
     {
         'name': 'Nevermind Hotel',
@@ -118,6 +178,11 @@ const homes = [
         'price': Math.floor(Math.random() * 20000) + 1000,
         'reviews': Math.floor(Math.random() * 1000) + 10,
         'rating': Math.floor(Math.random() * 5) + 1,
+        'images' : [
+            'images/houses/a_house3.jpg',
+            'images/houses/b_house2.jpg',
+            'images/houses/c_house1.jpg',
+        ]
     },
     {
         'name': 'Lorem Ipsum',
@@ -127,6 +192,11 @@ const homes = [
         'price': Math.floor(Math.random() * 20000) + 1000,
         'reviews': Math.floor(Math.random() * 1000) + 10,
         'rating': Math.floor(Math.random() * 5) + 1,
+        'images' : [
+            'images/houses/a_house2.jpg',
+            'images/houses/c_house1.jpg',
+            'images/houses/c_house2.jpg',
+        ]
     },
     {
         'name': 'Hotel nvidia',
@@ -136,6 +206,11 @@ const homes = [
         'price': Math.floor(Math.random() * 20000) + 1000,
         'reviews': Math.floor(Math.random() * 1000) + 10,
         'rating': Math.floor(Math.random() * 5) + 1,
+        'images' : [
+            'images/houses/b_house2.jpg',
+            'images/houses/b_house1.jpg',
+            'images/houses/c_house1.jpg',
+        ]
     },
     {
         'name': 'Hotel Mahiwaga',
@@ -145,6 +220,11 @@ const homes = [
         'price': Math.floor(Math.random() * 20000) + 1000,
         'reviews': Math.floor(Math.random() * 1000) + 10,
         'rating': Math.floor(Math.random() * 5) + 1,
+        'images' : [
+            'images/houses/a_house1.jpg',
+            'images/houses/b_house1.jpg',
+            'images/houses/c_house1.jpg',
+        ]
     },
 ];
 

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ReactDom from 'react-dom';
 import heightify from 'heightify';
+import axios from 'axios';
 
 import ItemList from './body/ItemList';
 import Loading from './Loading';
@@ -11,13 +12,13 @@ export default class Body extends Component {
 
     state = {
         location: {lat: 7.103602, lng: 125.641840},
+        url: window.location + 'api/homes'
     };
 
     componentDidMount = () => {
-        fetch(window.location + 'houses').then(response => {
-          if (response.ok) {
-            response.json().then(houses => {
-                this.setState(houses);
+        axios.get(this.state.url)
+            .then(res => {
+                this.setState({houses : res.data.homes});
 
                 heightify({
                     element: document.querySelectorAll('.item'),
@@ -25,8 +26,6 @@ export default class Body extends Component {
                     destroyOnSize: 500
                 })
             });
-          }
-        });
     }
 
     onHoverFunction = (position) => {

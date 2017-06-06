@@ -17,6 +17,7 @@ module.exports = [
             rules: [
                 { test: /\.js$/, use: 'babel-loader', exclude: /node_modules/ },
                 { test: /\.jsx$/, use: 'babel-loader', exclude: /node_modules/ },
+                { test: /\.css/, use: ['style-loader', 'css-loader']},
             ]
         },
     }, {
@@ -42,7 +43,7 @@ module.exports = [
         plugins: [
             new ExtractTextPlugin("bootstrap.min.css"),
         ]
-    },  {
+    }, {
         entry: [
             './resources/assets/sass/app.scss'
         ],

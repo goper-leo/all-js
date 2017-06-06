@@ -4,9 +4,7 @@ import Slider from 'react-slick';
 class Item extends Component {
 
     state = {
-        imagePrefix: ['a', 'b', 'c', 'd'],
-        imageSuffix: ['1', '2' , '3'],
-        starRatings: [1, 2, 3, 4, 5],
+
     }
 
     handleClick = () => {
@@ -16,7 +14,7 @@ class Item extends Component {
     //** Return image string
     getHouseImages = () => this.props.house.images.map(this.getImage)
 
-    getImage = (image) => <div key={image.id}><img src={image.path} /></div>
+    getImage = (image, i) => <div key={i}><img src={image} /></div>
 
     getRandomRating = () => {
         let rating = this.props.house.rating;
@@ -93,7 +91,7 @@ export default class ItemList extends Component {
         this.props.onHoverFunction(position);
     }
 
-    createItem = (house) => <Item key={house.id} house={house} lat={house.lat} long={house.long} onHoverFunction={this.onHoverFunction} />
+    createItem = (house) => <Item key={house._id} house={house} lat={house.lat} long={house.long} onHoverFunction={this.onHoverFunction} />
 
     createItems = (houses) => typeof (houses) !== 'undefined' ? houses.map(this.createItem) : ''
 

@@ -9,8 +9,10 @@ var homeSchema = new Schema({
   description: String,
   lat: String,
   long: String,
+  price: String,
   reviews: String,
-  rating: String
+  rating: String,
+  images: Array
 });
 
 // Export Mongoose model

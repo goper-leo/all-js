@@ -56,7 +56,7 @@ export default class Map extends Component {
     }
 
 
-    createMarker = (house) => <Marker key={house.id} lat={house.lat} lng={house.long} text={house.price} />
+    createMarker = (house) => <Marker key={house._id} lat={house.lat} lng={house.long} text={house.price} />
 
     createAllMarkers = (houses) => typeof (houses) !== 'undefined' ? houses.map(this.createMarker) : ''
 

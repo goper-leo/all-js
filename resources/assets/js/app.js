@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import ReactDom from 'react-dom';
 
 //** Import components
-// import Navbar from './components/Navbar';
-// import Body from './components/body';
-// import Footer from './components/Footer';
+import Navbar from './components/Navbar';
+import Body from './components/body';
+import Footer from './components/Footer';
 
 class App extends Component {
 
@@ -13,13 +13,13 @@ class App extends Component {
         <div>
             <Navbar />
 
-            {/* <section className="main">
+            <section className="main">
               <div className="container-fluid">
                 <Body />
               </div>
             </section>
 
-            <Footer /> */}
+            <Footer />
 
         </div>
 

@@ -11,6 +11,7 @@
     "webpack-watch": "webpack --watch --progress --hide-modules --config=./webpack.config.babel.js"
   },
   "dependencies": {
+    "axios": "^0.16.2",
     "body-parser": "~1.17.1",
     "bootstrap-sass": "^3.3.7",
     "cookie-parser": "~1.4.3",
@@ -41,6 +42,8 @@
     "font-awesome": "^4.7.0",
     "node-sass": "^4.5.3",
     "nodemon": "^1.11.0",
+    "react-dual-rangeslider": "^1.2.16",
+    "react-slick": "^0.14.11",
     "sass-loader": "^6.0.5",
     "style-loader": "^0.18.2",
     "webpack": "^2.6.1"
