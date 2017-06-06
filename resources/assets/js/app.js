@@ -11,7 +11,15 @@ class App extends Component {
   render() {
     return (
         <div>
-            Hello World!
+            <Navbar />
+
+            {/* <section className="main">
+              <div className="container-fluid">
+                <Body />
+              </div>
+            </section>
+
+            <Footer /> */}
 
         </div>
 
